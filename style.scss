@@ -4,3 +4,34 @@ $flex-container: rgb 240,
 div {
     background-color: $flex-container;
 }
+
+section {
+    h1 {
+        background-color: $coloruno;
+    }
+    h2 {
+        background-color: $colordos;
+    }
+}
+
+$coloruno:limegreen;
+$colordos: yellowgreen;
+@mixin fotos-columna ($fondo) {
+    width: auto;
+    padding: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: $fondo;
+}
+
+.fotos-columna1 {
+    @include fotos-columna(#222);
+}
+
+.fotos-columna2 {
+    @include fotos-columna(#444);
+}
+
+.fotos-columna3 {
+    @include fotos-columna(#666);
+}

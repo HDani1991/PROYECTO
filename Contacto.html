@@ -12,48 +12,56 @@
 </head>
 
 <body>
-    <h1>Contactanos</h1>
-    <h2>Envianos el formulario y nos pondremos en contacto a la brevedad</h2>
+    <h1><strong>Contactanos</strong></h1>
+    <h2><strong>Completa el formulario y nos pondremos en contacto a la brevedad</strong></h2>
     <header>
-        <nav class="nav-fondo">
-            <ul>
-                <li> <a href="Index.html">Menta y Chocolate</a></li>
-                <li> <a href="SobreNosotros.html">Sobre Nosotros</a></li>
-                <li> <a href="Productos.html">Productos</a></li>
-                <li> <a href="Galería.html">Galería</a></li>
-                <li> <a href="Contacto.html">Contacto</a></li>
-            </ul>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="Index.html">Menta y Chocolate</a></li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="SobreNosotros.html">Sobre Nosotros</a></li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Productos.html">Productos</a></li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Galería.html">Galería</a></li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+            </div>
         </nav>
-    </header>
+        <br>
 
-    <h2>FORMULARIOS</h2>
+        <h2>FORMULARIO</h2>
 
-    <form action="">
-        <fieldset class="estilocont">
-            <legend>Formulario de Consulta</legend>
-            <label for="genero">Género</label>
-            <br>
-            <input type="checkbox" name="genero" value="Hombre">
-            <input type="checkbox" name="genero" value="Mujer">
-            <br>
-            <label for="name">Nombre y Apellido:</label>
-            <input type="text" name="name" placeholder="Nombre y Apellido">
-            <br>
-            <label for="date">Fecha</label>
-            <br>
-            <select name="date">
+        <form action="">
+            <fieldset class="estilocont">
+                <legend>Formulario de Consulta</legend>
+                <label for="genero">Género</label>
+                <input type="checkbox" name="genero" value="Hombre">
+                <input type="checkbox" name="genero" value="Mujer">
+                <br>
+                <br>
+                <label for="name">Nombre y Apellido:</label>
+                <input type="text" name="name" placeholder="Nombre y Apellido">
+                <br>
+                <label for="date">Fecha:</label>
+                <select name="date">
             <option value="Elije la Fecha">Elije la Fecha</option>
-            <option value="8 de Julio">8 de Julio</option>
-            <option value="9 de Julio">9 de Julio</option>
-            <option value="10 de Julio">10 de Julio</option>
+            <option value="8 de Septiembre">8 de Septiembre</option>
+            <option value="9 de Septiembre">9 de Septirmbre</option>
+            <option value="10 de Septiembre">10 de Septiembre</option>
             <br>
             <input type="reset" value="LIMPIAR">
             <br>
-            <input type="submit" value="ENVIAR"> 
+            <br>
+            <button type="button" class="btn btn-success">ENVIAR</button>
     </fieldset>
 </select>
 
-    </form>
+        </form>
 
 </body>
 

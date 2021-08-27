@@ -1,146 +1,208 @@
-*{
-    margin: 0%;
-    padding: 0%;
-}
-h1{
-    color: chocolate;
-    margin: 30px;
-    text-decoration-line: underline;
-}
-h2{
-    color: chocolate;
-    margin: 30px;
-    text-decoration-line: underline;
-}
-p{
-    color:chocolate;
-    background-color: rgba(240,238,84,1);
-}
-header{
-    background-color:  rgba(240,238,84,1);
-    padding: 20px;
-}
-
-/*FLEXBOX*/
-.flex-container{
-    display: flex;
-    flex-direction: row;
-    padding: 5px;
-    justify-content: space-evenly;
-    align-items: center;
-}
-.flex-container div{
-    margin: auto;
-    padding: 80px;
-}
-body{
-    background: rgb(240,238,84);
-    background: linear-gradient(0deg, rgba(240,238,84,1) 0%, rgba(47,196,16,1) 200%);
-}
-li{
-    float: right;
-    font-style: italic;
-    font-size: 30px;
-    letter-spacing: 1px;
-}
-    li {
-        display:inline-block
-    }
-    a{
-        text-decoration: none;
-    }
-.italica{
-    font-style: italic;
-    font-size: 50px;
-    letter-spacing: 2px;
-    line-height: 80px;
-}
-.parrafo1y2{
-    font-family: cursive;
-    font-size: 25px;
-    text-align: center;
-    font-weight: 900px;
-    text-decoration-line: none;
-    font-family: cursive;
-    padding-top: 30px;
-    padding-bottom: 20px;
-    padding-left: 50px;
-    padding-right: 50px;
-}
-footer{
-    text-align:center;
-    font-size: 20px;
-}
-.estilocont{
-    color: black;
-    width: 500px;
-    text-align: left;
-    margin: 30px;
-}
-.snestilos{ 
-    width: 100px;
-    margin: 50px;
-    padding: 80px;
-    border: chocolate;
-    border-spacing: 10px;
-}
-.proestilos{
-    width: 500px;
-    padding: 10px;
-    border: chocolate;
-    margin-left: 400px;
-    margin-right: 4000px;
-    margin-top: 100px;
-    margin-bottom: 100px;
-    
-}
-
-/*Aplicando-GRIDS*/
-.grid-container{
-    display: grid;
-    grid-template-areas: 
-    "galeria1 galeria2 galeria3"
-    "galeria4 galeria5 galeria6"
-    "galeria7 galeria8 galeria9";
-}
-.fotos-columna{
-    width: auto;
-    padding: 50px;
-    margin-left: 20px;
-    margin-right: 20px;
-    background-color: khaki;
-}
-
-
-#cuadrado{
-    width: 200px;
-    height: 200px;
-    background-color:rgba(240,238,84,1) ;
-    animation-name: animacion;
-    animation-duration: 4s;
-    animation-iteration-count: infinite;
-    position: relative;
-}
-@keyframes animacion {
-    0% {background-color: rgba(240,238,84,1);}
-    50% {background-color:  rgba(47,196,16,1);}
-    100% {background-color: rgba(240,238,84,1);}
-
-    
-}
-#cuadrado2{
-    width: 200px;
-    height: 200px;
-    background-color:rgba(240,238,84,1) ;
-    animation-name: animacion;
-    animation-duration: 4s;
-    animation-iteration-count: infinite;
-    position: relative;
-}
-@keyframes animacion {
-    0% {background-color: rgba(240,238,84,1);}
-    50% {background-color:  rgba(47,196,16,1);}
-    100% {background-color: rgba(240,238,84,1);}
-
-    
-}
+                    * {
+                        margin: 5px;
+                        padding: 15px;
+                    }
+                    
+                    h1 {
+                        color: chocolate;
+                        margin: 1px;
+                        text-decoration-line: underline;
+                        font-size: 60px;
+                        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                    }
+                    
+                    h2 {
+                        color: chocolate;
+                        margin: 1px;
+                        text-decoration-line: underline;
+                        font-size: 40px;
+                    }
+                    
+                    h3 {
+                        color: chocolate;
+                        text-decoration-line: underline;
+                        font-size: 30px;
+                        padding-left: 90px;
+                    }
+                    /*FLEXBOX*/
+                    
+                    .navbar-nav {
+                        display: flex;
+                        flex-direction: row;
+                        margin: auto;
+                        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                        background-color: rgba(240, 238, 84, 1);
+                        width: 1000px;
+                        height: 90px;
+                        border: 5px solid chocolate;
+                    }
+                    
+                    .flex-container div {
+                        width: 5px;
+                        margin: 1px;
+                        text-align: center;
+                        font-size: 1px;
+                        border: 2px solid black;
+                    }
+                    
+                    body {
+                        background-color: rgba(240, 238, 84, 1);
+                        background: linear-gradient(rgb(82, 243, 82), rgba(240, 238, 84, 1))
+                    }
+                    
+                    li {
+                        float: right;
+                        font-style: italic;
+                        font-size: 30px;
+                        letter-spacing: 1px;
+                    }
+                    
+                    li {
+                        display: inline-block
+                    }
+                    
+                    a {
+                        text-decoration: none;
+                    }
+                    
+                    .italica {
+                        font-family: cursive;
+                        font-size: 50px;
+                        letter-spacing: 2px;
+                        line-height: 80px;
+                    }
+                    
+                    .parrafo12y3 {
+                        font-family: cursive;
+                        font-size: 25px;
+                        text-align: center;
+                        font-weight: 900px;
+                        font-family: cursive;
+                        padding-top: 5px;
+                        padding-bottom: 5px;
+                        padding-left: 50px;
+                        padding-right: 50px;
+                        border: 3px solid chocolate;
+                        color: chocolate;
+                    }
+                    
+                    .estilocont {
+                        color: chocolate;
+                        background-color: rgba(240, 238, 84, 1);
+                        width: 500px;
+                        text-align: left;
+                        margin: 30px;
+                        font-family: cursive;
+                        font-size: 25px;
+                        padding-left: 30px;
+                        text-align: center;
+                    }
+                    
+                    .snestilos {
+                        color: chocolate;
+                        background-color: rgba(240, 238, 84, 1);
+                        width: 0px;
+                        margin: 5px;
+                        border: 5px solid chocolate;
+                        text-align: center;
+                        font-family: cursive;
+                        padding-left: 30px;
+                        padding-right: 30px;
+                        padding-top: 30px;
+                        padding-bottom: 30px;
+                        font-size: 30px;
+                    }
+                    
+                    .proestilos {
+                        width: 500px;
+                        padding: 10px;
+                        border: chocolate;
+                        margin-left: 40px;
+                        margin-right: 40px;
+                        margin-bottom: 10px;
+                        border: 8px solid chocolate;
+                    }
+                    /*Aplicando-GRIDS*/
+                    
+                    .grid-container {
+                        display: grid;
+                        grid-template-areas: "galeria1 galeria2 galeria3" "galeria4 galeria5 galeria6" "galeria7 galeria8 galeria9";
+                    }
+                    
+                    .fotos-columna {
+                        width: auto;
+                        background-color: rgba(240, 238, 84, 1);
+                    }
+                    
+                    #cuadrado {
+                        width: 200px;
+                        height: 200px;
+                        background-color: rgba(240, 238, 84, 1);
+                        animation-name: animacion;
+                        animation-duration: 6s;
+                        animation-iteration-count: infinite;
+                        position: relative;
+                    }
+                    
+                    @keyframes animacion {
+                        0% {
+                            background-color: rgba(240, 238, 84, 1);
+                        }
+                        50% {
+                            background-color: rgb(82, 243, 82);
+                        }
+                        100% {
+                            background-color: rgba(240, 238, 84, 1);
+                        }
+                    }
+                    
+                    #cuadrado2 {
+                        width: 1100px;
+                        background-color: rgba(240, 238, 84, 1);
+                        animation-name: animacion;
+                        animation-duration: 5s;
+                        animation-iteration-count: infinite;
+                        position: relative;
+                    }
+                    
+                    @keyframes animacion {
+                        0% {
+                            background-color: rgba(240, 238, 84, 1);
+                        }
+                        50% {
+                            background-color: rgb(82, 243, 82);
+                        }
+                        100% {
+                            background-color: rgba(240, 238, 84, 1);
+                        }
+                    }
+                    
+                    footer {
+                        text-align: center;
+                        font-size: 20px;
+                        color: chocolate;
+                    }
+                    
+                    .imagenesportada1 {
+                        width: 1180px;
+                        height: 300px;
+                    }
+                    
+                    .imagenesportada2 {
+                        padding-left: 450px;
+                        padding-right: 450px;
+                    }
+                    
+                    .facebook {
+                        width: 40px;
+                        height: 40px;
+                        padding-top: 5px;
+                        padding-bottom: 5px;
+                    }
+                    
+                    .instagram {
+                        width: 40px;
+                        height: 40px;
+                        padding-top: 5px;
+                        padding-bottom: 5px;
+                    }
